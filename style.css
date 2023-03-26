@@ -2,6 +2,7 @@ body{
     width: 100vw;
     height: 100vh;
     margin:0px;
+    
 }
 header{
     background-image: url(./images/mobile/image-hero.jpg);
@@ -33,5 +34,85 @@ color: #FFFFFF;
 display: block;
 width: 10px;
 padding: 26px 24px 0px 24px;
+}
+main{
+    text-align: center;
+}
+.interactive{
+    width:327px;
+    margin-top:96px;
+}
+.leader{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 32px;
+text-transform: uppercase;
+color: #000000;
+margin-top:48px;
+}
+.founded{
+    font-family: 'Alata';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #000000;
+mix-blend-mode: normal;
+opacity: 0.5;
+padding: 0px 59px;
+}
+section{
+    margin-top:96px;
+}
+.our{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+color: #000000;
+}
+.card-container{
+    display: grid;
+    gap:20px;
+}
+.cards{
+    margin-top: 43px;
+    width:327px;
+}
+.deep{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: -26%;
+width: 0px;
+margin-left: 11%;
+}
+.earth{
+    margin-top:40px;
+    width:327px;
+}
+.allphoto{
+    margin-top:0px;
+    width:327px;
+
+}
+.soccer{
+    width: 108px;
+    text-align: left;
+}
+.up{
+    width: 130px;
+    text-align: left;
+}
+.fisheye{
+    width: 100px;
 }
 
