@@ -16,6 +16,9 @@ header{
     padding: 40px 24px 0px 24px;
     justify-content: space-between;
 }
+.line{
+    display: block;
+}
 .deliver{
     width: 327px;
     height: 196px;
@@ -78,6 +81,8 @@ color: #000000;
 .cardcontainer{
     display: grid;
     gap:20px;
+    height: 1145px;
+    margin-top:40px;
 }
 .cards{
     margin-top: 43px;
@@ -96,7 +101,6 @@ width: 0px;
 margin-left: 11%;
 }
 .earth{
-    margin-top:40px;
     width:327px;
 }
 .allphoto{
@@ -131,4 +135,91 @@ letter-spacing: 5px;
 text-transform: uppercase;
 color: #000000;
 }
+footer{
+ background-color: #000000;
+ text-align: center;
+ padding-bottom: 56px;
 
+}
+.loop{
+    margin-top:56px;
+}
+.text-container{
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top:32px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    margin-left:116px;
+    margin-top:40px;
+}
+.reserved{
+    font-family: 'Alata';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+.menu1{
+    background-color: #000000;
+    padding: 40px 26px 203px 24px;
+}
+.close{
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.menu-container{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 25px;
+color: #FFFFFF;
+margin-top:135px;
+text-transform: uppercase;
+}
+.texts{
+    display: none;
+
+}
+@media only screen and (min-width: 1440px) {
+header{
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-size: 1440px 650px;
+    padding:64px 165px 146px 165px;
+
+}
+.line{
+    display:none;
+}
+.texts{
+    font-family: 'Alata';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+display: flex;
+flex-direction: row;
+gap:32px;
+
+}
+.menu{
+    padding:0px;
+    gap:563px;
+}
+
+
+
+}
