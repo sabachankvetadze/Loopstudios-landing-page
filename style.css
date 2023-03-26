@@ -75,7 +75,7 @@ line-height: 32px;
 text-align: center;
 color: #000000;
 }
-.card-container{
+.cardcontainer{
     display: grid;
     gap:20px;
 }
@@ -114,5 +114,21 @@ margin-left: 11%;
 }
 .fisheye{
     width: 100px;
+}
+.all{
+    height: 40px;
+    width: 157px;
+    border: 1px solid #000000;
+    margin: 34px 109px;
+}
+.see{
+    font-family: 'Alata';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #000000;
 }
 
