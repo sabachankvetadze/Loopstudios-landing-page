@@ -1,225 +1,437 @@
-body{
-    width: 100vw;
-    height: 100vh;
-    margin:0px;
-    
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
 }
-header{
-    background-image: url(./images/mobile/image-hero.jpg);
-    background-repeat: no-repeat;
-    height: 650px;
-    background-size: 375px 650px;
+header {
+  background-image: url(./images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  height: 650px;
+  background-size: 375px 650px;
 }
-.menu{
-    display: flex;
-    align-items: center;
-    padding: 40px 24px 0px 24px;
-    justify-content: space-between;
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 40px 24px 0px 24px;
+  gap: 110px;
 }
-.line{
+.line {
+  display: block;
+}
+.deliver {
+  width: 327px;
+  border: 2px solid #ffffff;
+  margin: 153px 24px 0px 24px;
+  padding-bottom: 18px;
+}
+.immersive {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  width: 10px;
+  padding: 26px 24px 0px 24px;
+}
+main {
+  text-align: center;
+  padding: 48px 24px 34px 24px;
+}
+.interactive {
+  width: 327px;
+  margin-top: 96px;
+}
+.leader {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 48px;
+}
+.founded {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding: 0px 59px;
+}
+section {
+  margin-top: 96px;
+}
+.our {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  margin-top: 48px;
+}
+.divbutton {
+  margin-top: 0px;
+}
+
+button {
+  display: none;
+}
+.earthtext {
+  display: block;
+  background-image: url(./images/mobile/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+}
+.night {
+  display: block;
+  background-image: url(./images/mobile/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+  filter: brightness(0.7);
+}
+.team {
+  display: block;
+  background-image: url(./images/mobile/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+}
+.grid {
+  display: block;
+  background-image: url(./images/mobile/image-grid.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+}
+.fromup {
+  display: block;
+  background-image: url(./images/mobile/image-from-above.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+}
+.pocket {
+  display: block;
+  background-image: url(./images/mobile/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+}
+.curiosity {
+  display: block;
+  background-image: url(./images/mobile/image-curiosity.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+}
+.makeit {
+  display: block;
+  background-image: url(./images/mobile/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px;
+}
+.deep {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 27px 249px 0px 20px;
+  text-align: left;
+}
+.up {
+  width: 170px;
+}
+.earth {
+  width: 327px;
+  display: block;
+}
+.allphoto {
+  width: 327px;
+  display: block;
+}
+.all {
+  height: 40px;
+  width: 157px;
+  border: 1px solid #000000;
+  margin: 34px 109px;
+}
+.see {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding-bottom: 56px;
+}
+.loop {
+  margin-top: 56px;
+}
+.text-container {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 32px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-left: 116px;
+  margin-top: 40px;
+}
+.reserved {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.menu1 {
+  background-color: #000000;
+  padding: 40px 26px 203px 24px;
+  position: relative;
+  margin-top: -430px;
+  display: none;
+}
+.close {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-container {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 135px;
+  text-transform: uppercase;
+}
+.texts {
+  display: none;
+}
+.interactive2 {
+  display: none;
+}
+.allcards:hover {
+  opacity: 0.3;
+}
+
+@media only screen and (min-width: 1440px) {
+  header {
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-size: 1440px 650px;
+    padding: 64px 165px 146px 165px;
+  }
+  .line {
+    display: none;
+  }
+  .texts {
     display: block;
-}
-.deliver{
-    width: 327px;
-    height: 196px;
-    border: 2px solid #FFFFFF;
-    margin: 153px 24px 0px 24px;
-    
-}
-.immersive{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 40px;
-line-height: 38px;
-text-transform: uppercase;
-color: #FFFFFF;
-display: block;
-width: 10px;
-padding: 26px 24px 0px 24px;
-}
-main{
-    text-align: center;
-}
-.interactive{
-    width:327px;
-    margin-top:96px;
-}
-.leader{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 32px;
-text-transform: uppercase;
-color: #000000;
-margin-top:48px;
-}
-.founded{
-    font-family: 'Alata';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-color: #000000;
-mix-blend-mode: normal;
-opacity: 0.5;
-padding: 0px 59px;
-}
-section{
-    margin-top:96px;
-}
-.our{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 32px;
-text-align: center;
-color: #000000;
-}
-.cardcontainer{
-    display: grid;
-    gap:20px;
-    height: 1145px;
-    margin-top:40px;
-}
-.cards{
-    margin-top: 43px;
-    width:327px;
-}
-.deep{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 24px;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-top: -26%;
-width: 0px;
-margin-left: 11%;
-}
-.earth{
-    width:327px;
-}
-.allphoto{
-    margin-top:0px;
-    width:327px;
-
-}
-.soccer{
-    width: 108px;
-    text-align: left;
-}
-.up{
-    width: 130px;
-    text-align: left;
-}
-.fisheye{
-    width: 100px;
-}
-.all{
-    height: 40px;
-    width: 157px;
-    border: 1px solid #000000;
-    margin: 34px 109px;
-}
-.see{
-    font-family: 'Alata';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 14px;
-letter-spacing: 5px;
-text-transform: uppercase;
-color: #000000;
-}
-footer{
- background-color: #000000;
- text-align: center;
- padding-bottom: 56px;
-
-}
-.loop{
-    margin-top:56px;
-}
-.text-container{
-    font-family: 'Alata';
+    font-family: "Alata";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    color: #FFFFFF;
-    margin-top:32px;
-}
-.icons{
+    color: #ffffff;
     display: flex;
     flex-direction: row;
-    gap:16px;
-    margin-left:116px;
-    margin-top:40px;
-}
-.reserved{
-    font-family: 'Alata';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.5;
-}
-.menu1{
-    background-color: #000000;
-    padding: 40px 26px 203px 24px;
-}
-.close{
- 
-    display: flex;
-    justify-content: space-between;
-}
-.menu-container{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 25px;
-color: #FFFFFF;
-margin-top:135px;
-text-transform: uppercase;
-}
-.texts{
+    gap: 32px;
+  }
+  .menu {
+    padding: 0px;
+    gap: 563px;
+  }
+  .main {
+    margin: auto;
+  }
+  .interactive {
     display: none;
+  }
+  .immersive {
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 70px;
+    color: #ffffff;
+    width: 530px;
+  }
+  .divbutton {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 170px;
+  }
+  .our {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  button {
+    display: block;
+    height: 40px;
+    width: 157px;
+    background: #000000;
+    border: 1px solid #000000;
+    font-family: "Alata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .earthtext {
+    display: block;
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    margin-left: -45px;
+  }
+  .allcards:hover {
+    opacity: 0.3;
+  }
+  .night {
+    display: block;
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    filter: brightness(0.7);
+    margin-left: -37px;
+  }
+  .team {
+    display: block;
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    margin-left: -23px;
+  }
+  .grid {
+    display: block;
+    background-image: url(./images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    margin-left: -33px;
+  }
+  .fromup {
+    display: block;
+    background-image: url(./images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    margin-left: -45px;
+  }
+  .pocket {
+    display: block;
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    margin-left: -37px;
+  }
+  .curiosity {
+    display: block;
+    background-image: url(./images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    margin-left: -23px;
+  }
+  .makeit {
+    display: block;
+    background-image: url(./images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: 256px;
+    margin-left: -33px;
+  }
+  .deliver {
+    width: 646px;
+    margin: 130px 0px 146px 0px;
+  }
+  main {
+    padding: 96px 164px 184px 162px;
+  }
+  .interactive2 {
+    display: block;
+  }
+  .leadfounded {
+    width: 541px;
+    background-color: #ffffff;
+    position: absolute;
+    margin: 210px 0px 0px 570px;
+    padding: 65px 0px 0px 96px;
+  }
+  .leadfoundphoto {
+    display: flex;
+    position: relative;
+  }
+  .deep {
+    font-size: 32px;
+    line-height: 32px;
+    padding: 326px 110px 32px 55px;
+  }
 
-}
-@media only screen and (min-width: 1440px) {
-header{
-    background-image: url(./images/desktop/image-hero.jpg);
-    background-size: 1440px 650px;
-    padding:64px 165px 146px 165px;
-
-}
-.line{
-    display:none;
-}
-.texts{
-    font-family: 'Alata';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-color: #FFFFFF;
-display: flex;
-flex-direction: row;
-gap:32px;
-
-}
-.menu{
-    padding:0px;
-    gap:563px;
-}
-
-
-
+  .leader {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 0px;
+  }
+  .founded {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0px;
+    text-align: left;
+    width: 380px;
+  }
+  .all {
+    display: none;
+  }
+  footer {
+    text-align: start;
+    padding: 0px 165px 30px 165px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .loop {
+    width: 144px;
+  }
+  .looptext {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container {
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+  }
+  .iconreserved {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+  }
 }
